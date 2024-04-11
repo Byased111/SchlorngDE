@@ -9,7 +9,8 @@ SETUP:
 1. Get your lua files (lua 5.4 recommended, as it was used throughout this)
 2. Drop your dll file (or .so if you're a NERD) into the same dir as "bossman.lua"
 3. Put your "lua.h", "lauxlib.h", "lualib.h", and "luaconf.h" into the include dir
-4. Compile (gcc recommended)
+4. Compile (using gcc as an example) with `gcc main.c -o SchlorngDE.exe -L"./" -llua__`.
+__ = your lua version, and also that compile cmd is assumed you cd'ed to Pipe
 5 (optional). Customize
 6 (optional, and for linux/mac). Create a bash/zsh script to replace SDE.bat
 7. (optional, but very recommended, for windows) add the dir containing SDE.bat to
