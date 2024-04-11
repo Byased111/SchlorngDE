@@ -1,5 +1,9 @@
 SCHLORNG-DE, the best text editor in the world (ctrl-backspace still not supported)
 
+EPILEPSY WARNING: this text editor refreshes all the text very often, so if your
+pc isn't the absolute best, you'll be seeing a lot of flickering (ESPECIALLY
+with big files).
+
 This text editor was honestly just a fun little side-project, that turned into a 
 massive pain in the ass. This text editor is also kinda finnicky, and was written
 on windows with visual studio and then itself around the end.
